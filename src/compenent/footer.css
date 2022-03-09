@@ -1,0 +1,120 @@
+.footer{
+    padding: 0px 180px;
+    
+}
+.footertop{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgb(61, 61, 61);
+    padding-bottom: 25px;
+}
+.footer_logo>img{
+width: 150px;
+height: 30px;
+
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+}
+.flist{
+    list-style-type: none;
+}
+.flist>li{
+color: rgb(61, 61, 61);
+margin-top: 5px;
+}
+.img_ico{
+    padding-top: 30px;
+}
+.img_ico>img{
+width: 150px;
+height: 45px;
+visibility: hidden;
+}
+.copyright{
+    border-top: solid rgb(61, 61, 61);
+    padding: 20px 0px;
+    text-align: center;
+    color: rgb(61, 61, 61);
+}
+.flist:not(:first-child){
+    margin-top: 10px;
+}
+.icons_footer>img{
+width: 40px;
+width: 40px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .footerbottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        justify-content: center ;
+   }
+   .flist{
+       height: 30px;
+       overflow-y: hidden;
+       margin-top: 40px;
+    
+   }
+   .flist:first-child{
+       position: relative  !important;
+       width: 100%;
+       background-color: beige;
+       text-align: center;
+
+   }
+   .left{
+    position: relative  !important;
+    width: 100%;
+    background-color: beige;
+    text-align: center;
+   }
+
+   .flist>li>div{
+    background-image: url('./img/play.png');
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    line-height: 15px;
+    left:60%;
+    margin-left: 5px;
+    margin-top: 3px;
+   transition: all .2s linear;
+}
+
+    .footer>*{
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+.icons{
+   font-size: 25px;
+   cursor: pointer;
+   margin-left: 8px;
+   color: rgb(61, 61, 61) ;
+
+}
+.icons:hover{
+    color: red;
+ }
+
+ .rotate{
+    transform: rotate(90deg);
+}
+.display{
+height: auto;
+}

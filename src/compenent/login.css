@@ -1,0 +1,59 @@
+.login{
+    margin-bottom: 50px;
+}
+.login>h1{
+    margin-left:220px ;
+    margin-top: 50px;
+    color: rgb(61, 61, 61) !important;
+    
+}
+.form_login{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.btn{
+    width: 30%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+
+}
+.btn>input{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    transition: all .2s linear;
+    border: .1px solid rgb(95, 91, 91);
+    cursor: pointer;
+
+
+}
+.btn>input:hover{
+background-color: red;
+color: white;
+}
+.inputs{
+    width: 100%;
+    padding: 15px 10px;
+    border: .1px solid rgb(95, 91, 91);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.lbl{
+    margin-top: 10px;
+    color:rgb(95, 91, 91);
+
+}
+
+@media screen and (max-width: 768px) {
+    .login>h1{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+
+
