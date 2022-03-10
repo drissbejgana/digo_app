@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import logo from './img/download.png';
+import logo from './img/logo-digo-red-agence-de-communication-marrakech.png';
 
 const Footer = () => {
     return (

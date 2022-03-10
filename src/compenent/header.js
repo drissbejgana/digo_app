@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { useEffect } from 'react/cjs/react.development';
-import logo from './img/download.png'
+import logo from './img/logo-digo-red-agence-de-communication-marrakech.png'
 const Header = () => {
     useEffect(()=>{
         let burger=document.querySelector(".burger")
