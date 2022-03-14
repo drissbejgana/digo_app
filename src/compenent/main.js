@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import './services.css';
-import './propos.css'
+import './main.css'
 
 import creation from './img/creation-de-site-web-a-marrakech-maroc.png'
 import design from './img/conception-graphique-design-graphique-marrakech.png'
@@ -69,7 +68,7 @@ const Main = () => {
                 </div>
                 <div className='item hideitem'>
                     <img  src={leads} />
-                     <p>generate de leads</p>
+                     <p>Generation de leads</p>
                 </div>
                 <div className='item hideitem'>
                     <img  src={photographie} />
